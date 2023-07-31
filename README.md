@@ -3,9 +3,11 @@ Direkomendasikan menggunakan virtual environment, bisa menggunakan Anaconda
 --Instalasi Setup
 1. Buat virtual environment (contoh Anaconda)
    ```conda create -n "gcn_torch" python=3.9```
-2. Install requirements
+2. Aktivasi environment
+   ```conda activate gcn_torch```
+4. Install requirements
    ```python setup.py install```
-3. Masuk pada directory pygcn
+5. Masuk pada directory pygcn
    ```python train.py```
 
 Program ditest dengan ubuntu 20.04
